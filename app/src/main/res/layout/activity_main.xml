@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Converting Number to Words"
+        style="@style/TextView"
+        />
+    <EditText
+        android:id="@+id/etNumber"
+        style="@style/EditText"
+        android:hint="Enter a 3 digit Number"
+        />
+    <Button
+
+        style="@style/TextView"
+        android:text="Convert"
+        android:id="@+id/btnConvert"
+        />
+
+    <TextView
+        android:id="@+id/tvWords"
+        style="@style/TextView"/>
+
+</android.support.v7.widget.LinearLayoutCompat>
